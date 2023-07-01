@@ -1,0 +1,96 @@
+*,body{
+    padding : 0;
+    margin : 0
+}
+
+
+body  , html , .main-content{
+    font-family: "Segoe UI" , sans-serif;
+}
+
+.main-content {
+   margin : 0 auto;
+   background : #fff;
+   width : 40%
+}
+
+.result-parent {
+    display : grid 
+}
+
+.grid-2 {
+    grid-template-columns: repeat(2, 1fr);
+   
+} 
+
+.result-container {
+    background : rgb(32, 100, 210) ;
+    color : white ; 
+    border-radius: 1rem;
+    text-align: center;
+    padding : 2rem
+}
+.mb-2{
+    margin-bottom : 2rem
+}
+.section-header {
+    text-transform: capitalize;
+}
+.summary > div {
+    display : flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.circle {
+    height : 3.95rem;
+    width : 3.95rem;
+    border-radius:50%;
+    border : 2px solid  #1bbc9d;
+    margin : 0 auto;
+    padding : .25rem ; 
+    text-align: center;
+} 
+
+.mt-2 {
+    margin-top: 2rem;
+}
+.score {
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.summary {
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    padding : 1rem
+}
+
+.course-overview {
+    padding : 1rem ; 
+    border-radius: 5px ; 
+    background: rgb(214, 223, 129);
+    margin-bottom : 2rem ; 
+}
+
+.btn {
+    border : none ; 
+    padding : 10px;
+    border-radius: 2px;
+}
+
+a  {
+    text-decoration: none; 
+    text-align: center;
+    color : #fff
+} 
+
+.btn-blue {
+    background : rgb(35, 93, 114) ;
+    color : #fff;
+    border-radius: 2rem;
+}
